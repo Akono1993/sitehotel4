@@ -1,0 +1,152 @@
+.navbar-brand img{
+    max-height: 40px;     
+}
+header .row{
+    min-height:70vh;
+    background-image: url(../css/img/hôtels-luxe-afrique.jpg);
+ align-items: center; 
+ background-attachment: fixed;
+ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+header .reservation{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#hotel{
+ position: absolute;
+ z-index: 1;
+    
+}
+#hotel h1{
+    padding-top: 22vh;
+    color: wheat;
+    font-family: 'Indie Flower', cursive;
+}
+#experience{
+    position: absolute;
+    z-index: 1;
+    margin-top: 130px;
+   
+}
+
+#experience h1{
+    display: flex;
+    /*min-height:10vh;*/
+   color: wheat;
+   align-items: flex-end;
+   justify-content: flex-end;
+   font-family: 'Ballet', cursive;
+   
+}
+
+
+
+@media (max-width: 768px) { 
+
+    #experience h1{
+        display: none;
+    }
+ }
+
+ #presentation .media span{
+     font-size: 30px;
+     color: #9b7f4b;
+     width: 4rem;
+     text-align: center;
+
+ }
+
+ #presentation .media .media-body{
+    margin-left: 4vh;
+
+}
+#presentation .media {
+    margin-top: 3rem;
+   
+    
+
+}
+
+#presentation .media {
+    padding-top: .5rem, 1rem;
+   transition: all .9 ease-in-out ;
+   cursor: pointer;
+   border-radius: 3px; 
+   
+}
+
+#presentation .media:hover {
+  background-color: #b4b3b1;  
+   
+}
+ 
+.fontchambre{
+   
+    background-image: url(../css/img/image-etoiles-comment.jpg);
+ background-size: cover; 
+ background-repeat: no-repeat;
+ background-attachment: fixed; 
+ min-height:calc(100vh - 50px);
+
+ 
+}
+.avisClient{
+    min-height: calc(100vh - 50px);
+    background-color: #b4b3b1;
+   
+    
+}
+
+.avisClient span{
+    font-size: 5rem;
+    color: #17a2b8;
+
+}
+.avisClient h5{
+    font-size: 2rem;
+    color: #888888;
+}
+#contact .row{
+    min-height: calc(100vh -50px);
+}
+#contact{
+    background-image: url(../css/img/champagne2.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    min-height: calc(100vh - 50px); 
+}
+
+
+.formcontact{
+   background-color: rgba(255, 255, 255, 0.7); 
+  padding: 2rem 1rem;
+  margin-top: 15vh;
+ 
+ 
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #9999;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+}
+footer a{
+    color: #9999;
+    font-size: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+footer a:hover{
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
+
+
